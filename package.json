@@ -12,6 +12,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@celo/contractkit": "^1.3.1",
     "@celo/dappkit": "^1.3.1",
     "@expo/vector-icons": "^12.0.0",
     "@react-navigation/bottom-tabs": "^6.0.5",
@@ -32,7 +33,8 @@
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.8.0",
     "react-native-web": "0.17.1",
-    "vm-browserify": "^1.1.2"
+    "vm-browserify": "^1.1.2",
+    "web3": "^1.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
